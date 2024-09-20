@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Country Quiz</title>
+</head>
+
+<body>
+    <main class="quiz-main">
+        <h2 class="title-quiz" id="result">Country Quiz</h2>
+        <div class="states" id="states">
+            <div class="numbers" id="state1">1</div>
+            <div class="numbers" id="state2">2</div>
+            <div class="numbers" id="state3">3</div>
+            <div class="numbers" id="state4">4</div>
+            <div class="numbers" id="state5">5</div>
+            <div class="numbers" id="state6">6</div>
+            <div class="numbers" id="state7">7</div>
+            <div class="numbers" id="state8">8</div>
+            <div class="numbers" id="state9">9</div>
+            <div class="numbers" id="state10">10</div>
+        </div>
+        <h2 id="question"></h2>
+        <div class="options-quiz">
+            <button id="option1" onclick="verificateOption(event)" class="option-button"></button>
+            <button id="option2" onclick="verificateOption(event)" class="option-button"></button>
+            <button id="option3" onclick="verificateOption(event)" class="option-button"></button>
+            <button id="option4" onclick="verificateOption(event)" class="option-button"></button>
+        </div>
+        <button id="next"><i class="bi bi-arrow-right"></i></button>
+        <a href="./results.html" id="seeResults">
+            <button class="seeResults">See results</button>
+        </a>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+
+</html>
